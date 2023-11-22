@@ -23,7 +23,7 @@ tree %USERPROFILE%
 pause
 
 :dir
-dir .txt
+dir *.txt
 pause
 
 :mkdir
