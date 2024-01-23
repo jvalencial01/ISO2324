@@ -63,6 +63,6 @@ x)
 esac
 done
 l=$(pwd $1)
-echo "La ruta del fichero es $l"
+echo "La ruta del fichero es $l/$1"
 echo "Ahora te voy a mostrar el contenido del fichero creado"
 cat $1
