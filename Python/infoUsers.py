@@ -21,7 +21,7 @@ while op != 4:
     if op == 1:
         ssoo = os.uname()
         print(ssoo)
-        cpu = os.cpu_count()
+        cpu = cpuinfo.get_cpu_info()['brand']
         print("Numero de cpu", cpu)
     if op == 2:
         usu = input("Escriba un usuario: ")
